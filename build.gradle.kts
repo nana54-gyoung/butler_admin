@@ -55,6 +55,11 @@ dependencies {
     kapt("org.mapstruct:mapstruct-processor:1.4.1.Final")
 
     implementation("org.apache.commons:commons-lang3:3.7")
+
+    implementation("com.google.code.gson:gson:2.8.9")
+
+    implementation ("ch.qos.logback:logback-classic:1.4.1")
+    implementation ("org.slf4j:slf4j-api:2.0.3")
 }
 
 kotlin {

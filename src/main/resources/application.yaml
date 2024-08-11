@@ -6,6 +6,10 @@ spring:
     username: butler
     password: butler2024
     driver-class-name: "com.mysql.cj.jdbc.Driver"
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+
 
   jpa:
     hibernate:
